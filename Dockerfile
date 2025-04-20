@@ -1,5 +1,5 @@
 # Use the latest Airflow image with Python 3.12
-FROM apache/airflow:2.8.0-python3.12
+FROM apache/airflow:2.8.1-python3.11
 
 # Set the working directory
 WORKDIR /usr/local/airflow
