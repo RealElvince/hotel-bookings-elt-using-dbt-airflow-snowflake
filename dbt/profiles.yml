@@ -1,0 +1,13 @@
+default:
+  outputs:
+    dev:
+      account: XEGUDZI-SO81093
+      database: booking_db
+      password: booking_user123
+      role: booking_role
+      schema: booking_schema
+      threads: 10
+      type: snowflake
+      user: booking_user
+      warehouse: booking_warehouse
+  target: dev
